@@ -1,0 +1,11 @@
+# 核心解析（必装）
+openpyxl>=3.1
+python-docx>=1.1
+python-pptx>=0.6.23
+xlrd>=2.0
+# 拖拽支持（GUI 增强，可装可不装；装了才能拖文件夹）
+tkinterdnd2>=0.4
+# 旧格式 .doc/.xls/.ppt 转换（仅 Windows + 装了 Office/WPS，可选）
+pywin32>=306; sys_platform == "win32"
+# 打包（仅开发用）
+pyinstaller>=6.0
